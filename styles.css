@@ -293,13 +293,14 @@ summary {
     justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,0.5);
-    margin: 400px 0 0 0;
-    height: 100px;
+    margin: 150px 0 0 0;
+    height: 200px;
 
 }
 
 .odin > p{
     opacity: 1;
+    font-size: 82px;
     color:white;
 }
 
