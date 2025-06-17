@@ -1,0 +1,47 @@
+:root{
+    --text-bg:#e6efff;
+    --input-bg:#FFFF;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    position: fixed;
+
+    left:-375px;
+    top:-300px;
+
+}
+body{
+    display:flex;
+    justify-content: space-between;
+}
+
+.left{
+    background-color: red;
+    height:100vh;
+    flex: 1;
+}
+
+.right{
+    background-color: blue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:2;
+    position:relative;
+}
+
+.right>*{
+    border:solid 1px;
+}
+
+.sign-up-message, .bottom{
+    background-color: var(--text-bg);
+}
+.form{
+    background-color: var(--input-bg);
+}
