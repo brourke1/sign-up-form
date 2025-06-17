@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="left"><img src="./grizzly-bear.jpg" alt="A bear looking at its own reflection"/></div>
-    <div class="right">
-        <div class="sign-up-message">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-        </br>
-        Sign up <em>now</em> to get started.
-    </br></br>
-            You <em>know</em> you want to.
+    <div class="content">
+        <div class="left">
+            <div class="odin">
+                <img src="imgs/odin-lined.png" id="odin-image" alt=""/>
+                <p>ODIN</p>
+            </div>
+            <div class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </div>
         </div>
-        <div class="form">
-            <form>
-                <legend for="first-name">First Name</legend>
-                <input type="text" id="first-name">
-            </form>
-        </div>
-        <div class="bottom">
-            <button></button>
-            <div>Already have an account?</div>
-            <a href="./login.html">Log in</a>
+        <div class="right">
+            <div class="sign-up-message">This is not a real online service! You know you need something like this in
+                your life to help you realize your deepest dreams.
+                </br>
+                Sign up <em>now</em> to get started.
+                </br></br>
+                You <em>know</em> you want to.
+            </div>
+            <div class="form">
+                <form id="sign-up-form">
+                    <div class="left-form">
+                        <div>
+                            <legend for="first-name">First Name</legend>
+                            <input type="text" id="first-name">
+                        </div>
+                        <div>
+                            <legend for="email">Email</legend>
+                            <input type="email" id="email">
+                        </div>
+                        <div>
+                            <legend for="password">Password</legend>
+                            <input type="password" id="password">
+                        </div>
+                    </div>
+                    <div class="right-form">
+                        <div>
+                            <legend for="last-name">Last Name</legend>
+                            <input type="text" id="last-name">
+                        </div>
+                        <div>
+                            <legend for="phone-number">Phone Number</legend>
+                            <input type="tel" id="phone-number">
+                        </div>
+                        <div>
+                            <legend for="confirm-password">Confirm Password</legend>
+                            <input type="password" id="confirm-password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+                <button type="submit">Create Account</button>
+                <div>Already have an account? <a href="./login.html">Log in</a></div>
+                
+            </div>
         </div>
     </div>
 </body>
+
 </html>
